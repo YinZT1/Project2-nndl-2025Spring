@@ -1,0 +1,75 @@
+# 忽略编译生成的文件
+*.o
+*.exe
+*.obj
+*.class
+*.pyc
+*.pyo
+*.so
+*.dll
+
+# 忽略 IDE 和编辑器生成的文件
+.idea/              # PyCharm/IntelliJ
+.vscode/            # Visual Studio Code
+*.sublime-*         # Sublime Text
+*.swp               # Vim 临时文件
+*.swo
+
+# 忽略构建和打包目录
+build/
+dist/
+target/
+out/
+
+# 忽略依赖目录
+node_modules/
+venv/
+env/
+.virtualenv/
+
+# 忽略日志和临时文件
+*.log
+*.log.*
+*.tmp
+*.temp
+*.cache
+__pycache__/
+*.pyc
+
+# 忽略测试和覆盖率报告
+coverage/
+.coverage
+*.cover
+*.lcov
+
+# 忽略操作系统生成的文件
+.DS_Store           # macOS
+Thumbs.db           # Windows
+desktop.ini
+
+# 忽略配置文件（敏感信息）
+.env
+*.env.*
+config.json
+secrets.json
+*.pem
+*.key
+*.crt
+
+# 忽略数据库文件
+*.db
+*.sqlite3
+
+# 忽略打包文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 忽略文档生成文件
+docs/_build/
+*.pdf
+
+# 允许特定文件（可选）
+!.gitignore
+!README.md
