@@ -14,3 +14,16 @@ task2的多个py文件代表了我运行的全过程。每个文件都可以单�
 
 ### 训练好的模型：链接：https://pan.baidu.com/s/1icAnMExdI1H6ZBAqfTEwDg 
 提取码：1234 
+
+
+### 如何评估下载后的模型？
+1. 将CIFAR数据集放在该目录下的data文件夹中
+2. 终端输入`python evaluation.py --checkpoint_path model_path --model_type type`
+
+注意Type只有两个可选：('VGG_A','VGG_A_Res_BN')。
+
+而后你会得到如下的输出：
+`模型权重加载成功。
+准备 CIFAR-10 测试数据集...
+Files already downloaded and verified
+评估完成: 平均损失: 1.3222, 准确率: 80.77%`
